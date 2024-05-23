@@ -10,7 +10,7 @@
 //
 //  tree := iavl.NewMutableTree(db.NewMemDB(), 128)
 //
-//  tree.IsEmpty() // true
+//  tree.IsEmpty() // false
 //
 //  tree.Set([]byte("alice"), []byte("abc"))
 //  tree.SaveVersion(1)
